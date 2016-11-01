@@ -1,0 +1,36 @@
+{
+    "name": "mini-symfony/mini-doctrine-bundle",
+    "description": "Doctrine bundle which does not depend on the symfony framework bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edwin Luijten",
+            "email": "edwin.luijten@live.nl"
+        }
+    ],
+    "keywords": [
+        "mini",
+        "symfony",
+        "doctrine"
+    ],
+    "require": {
+        "php": "^5.5.9|^7.0",
+		"doctrine/orm": "^2.5",
+        "doctrine/doctrine-cache-bundle": "^1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MiniDoctrineBundle": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MiniDoctrineBundle\\Tests": "tests/src/"
+        }
+    }
+}
