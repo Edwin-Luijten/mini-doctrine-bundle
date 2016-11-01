@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MiniDoctrineBundle": "src/"
+            "MiniDoctrineBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MiniDoctrineBundle\\Tests": "tests/src/"
+            "MiniDoctrineBundle\\Tests\\": "tests/src/"
         }
     }
 }
